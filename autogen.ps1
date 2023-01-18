@@ -29,6 +29,7 @@ import-module -Name ./src/PSJira/ -Verbose
 import-module -Name ./src/PSJira/ -Verbose -Force
 
 
+#zzz ToDo: make an appropraite auth trainer.
 <#
     example to generate a valid bearer auth token
 
