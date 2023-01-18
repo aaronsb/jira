@@ -1,4 +1,4 @@
-# PSJira - the PowerShell module for the The Jira Cloud platform REST API
+# PSJira - PowerShell modules for Jira Cloud platform REST API
 
 Jira Cloud platform REST API documentation
 
