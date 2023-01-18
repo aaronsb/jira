@@ -1,0 +1,31 @@
+# StatusDetails
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Self** | **String** | The URL of the status. | [optional] [readonly] 
+**Description** | **String** | The description of the status. | [optional] [readonly] 
+**IconUrl** | **String** | The URL of the icon used to represent the status. | [optional] [readonly] 
+**Name** | **String** | The name of the status. | [optional] [readonly] 
+**Id** | **String** | The ID of the status. | [optional] [readonly] 
+**StatusCategory** | [**StatusDetailsStatusCategory**](StatusDetailsStatusCategory.md) |  | [optional] 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$StatusDetails = Initialize-PSJiraStatusDetails  -Self null `
+ -Description null `
+ -IconUrl null `
+ -Name null `
+ -Id null `
+ -StatusCategory null
+```
+
+- Convert the resource to JSON
+```powershell
+$StatusDetails | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
